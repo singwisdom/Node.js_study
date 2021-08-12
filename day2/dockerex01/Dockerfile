@@ -66,3 +66,9 @@ apt-get install -y vim nano net-tools openssh-server
 # docker exec -d -w <워킹 디랙토리> -p 호스트포트:가상기기포트 <컨테이너ID> 명령어
 # -d ==> 데몬으로 실행(백그라운드 실행)
 # -w ==> 명령을 실행할 때 기준이 되는 디렉터리
+
+# git & docker
+# 컨테이너 내용 유지 -> git 저장소 이용
+# 원격으로 컨테이너 접속 -> 소스 작업 후 -> commit -> push
+# 다른 원격컨테이너에서 변경한 내용 -> pull
+# push <--> pull ===> 서로 다른 원격환경에서 동기화
