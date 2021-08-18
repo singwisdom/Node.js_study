@@ -1,0 +1,5 @@
+### echo post test
+POST http://localhost:8090/echo
+my-custom-header : 'hi'
+// 위에랑 한칸 공백이 있어야 함. 어디까지가 헤더인지 구분해주기 위해
+hello post  
