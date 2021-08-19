@@ -10,3 +10,6 @@ Content-Type: application/json
 
 ### test get find
 GET http://localhost:8080/find
+
+### test get delete
+GET http://localhost:8080/delete/id/여기에아이디

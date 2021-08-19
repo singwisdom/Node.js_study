@@ -57,6 +57,10 @@ dotenv.config();
             }
         })
 
+        app.get('/delete/id/:id', async(req,res)=> {
+            
+        })
+
         app.listen(process.env.PORT, () => {
 
             if (process.env.NODE_ENV == 'dev') {
