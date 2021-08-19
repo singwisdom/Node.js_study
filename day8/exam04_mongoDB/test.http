@@ -1,2 +1,12 @@
-## test get hello
-GET http://localhost:8080/hello
+### test get hello
+GET http://localhost:8080/hello 
+// npm run dev로 접속할것
+
+### test post insert
+POST http://localhost:8080/insert
+Content-Type: application/json
+
+{"title":"test1","text":"item1"}
+
+### test get find
+GET http://localhost:8080/find
